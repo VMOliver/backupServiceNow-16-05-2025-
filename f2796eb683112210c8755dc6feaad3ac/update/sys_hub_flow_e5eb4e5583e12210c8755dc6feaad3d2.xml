@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=94574000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>automao_de_solicitaes_de_servios_acadmicos</internal_name>
+        <label_cache>[{"name":"Created_1.current.cadeiras_para_o_aluno_se_matricular","label":"Trigger - Record Created➛Solicitação de Serviços Acadêmicos Record➛Cadeiras para o aluno se matricular","reference":"x_1649915_unit_cadeiras","reference_display":"Cadeiras","type":"reference","base_type":"reference","parent_table_name":"x_1649915_unit_solicitacao_de_servicos_academicos","column_name":"cadeiras_para_o_aluno_se_matricular","usedInstances":{"f4bfd188-7fc1-4dc4-a501-a3a398b8cde8":["x_1649915_unit_cadeiras"],"97b7b6d6-4be9-4d14-8403-59f696ba9d30":["x_1649915_unit_cadeiras"]}},{"name":"Created_1.current.nome_do_aluno","label":"Trigger - Record Created➛Solicitação de Serviços Acadêmicos Record➛Nome do aluno","reference":"x_1649915_unit_alunos","reference_display":"Alunos","type":"reference","base_type":"reference","parent_table_name":"x_1649915_unit_solicitacao_de_servicos_academicos","column_name":"nome_do_aluno","usedInstances":{"f4bfd188-7fc1-4dc4-a501-a3a398b8cde8":["x_1649915_unit_alunos"],"97b7b6d6-4be9-4d14-8403-59f696ba9d30":["x_1649915_unit_alunos"]}},{"name":"9b91d919-9627-441d-b5f3-49f2e6f4a6ab.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"1366d181-5f55-4ada-806f-070d5424dedf":["condition"],"098fe168-a180-449d-85bc-9487ba397ec2":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitação de Serviços Acadêmicos Record","reference":"x_1649915_unit_solicitacao_de_servicos_academicos","reference_display":"Solicitação de Serviços Acadêmicos","type":"reference","base_type":"reference","usedInstances":{"8c3428f3-4592-4482-bfb1-98f2ee9e14f5":["record"],"db98791d-95d8-4859-b86b-dbff48f3ab99":["record"],"54d00875-bef8-4fed-8bc8-0a2f058b622f":["record"],"5f391ac7-c74f-4961-a711-bcae984ff397":["record"]},"attributes":{}},{"name":"8c3428f3-4592-4482-bfb1-98f2ee9e14f5.record","label":"1 - Update Record➛Solicitação de Serviços Acadêmicos Record","reference":"x_1649915_unit_solicitacao_de_servicos_academicos","reference_display":"Solicitação de Serviços Acadêmicos","type":"reference","base_type":"reference","usedInstances":{"9b91d919-9627-441d-b5f3-49f2e6f4a6ab":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6946228583e12210c8755dc6feaad3ac}}","label":"Professores UNIT-PE","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9b91d919-9627-441d-b5f3-49f2e6f4a6ab":["approval_conditions"]}}]</label_cache>
+        <master_snapshot>d3a4372583212210c8755dc6feaad32b</master_snapshot>
+        <name>Automação de solicitações de serviços acadêmicos</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>73a4372583212210c8755dc6feaad3bb</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 17:47:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5eb4e5583e12210c8755dc6feaad3d2</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Automação de solicitações de serviços acadêmicos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name>sys_hub_flow_e5eb4e5583e12210c8755dc6feaad3d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:06</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1649915_unit_solicitacao_de_servicos_academicos">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73a4372583212210c8755dc6feaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:05</sys_updated_on>
+        <table>x_1649915_unit_solicitacao_de_servicos_academicos</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>e5eb4e5583e12210c8755dc6feaad3d2</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:05</sys_created_on>
+        <sys_id>3fa4372583212210c8755dc6feaad3bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:05</sys_updated_on>
+        <trigger display_value="">73a4372583212210c8755dc6feaad3bb</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e5eb4e5583e12210c8755dc6feaad3d2^sys_idNOT IN3fa4372583212210c8755dc6feaad3bb"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e5eb4e5583e12210c8755dc6feaad3d2^sys_idNOT IN467bdb1583a92210c8755dc6feaad350"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>467bdb1583a92210c8755dc6feaad350</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:05</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=467bdb1583a92210c8755dc6feaad350"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>467bdb1583a92210c8755dc6feaad350</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>067bdb1583a92210c8755dc6feaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>467bdb1583a92210c8755dc6feaad350</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>ca7bdb1583a92210c8755dc6feaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <value>x_1649915_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e5eb4e5583e12210c8755dc6feaad3d2^sys_idNOT IN25eb4e5583e12210c8755dc6feaad3d4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e5eb4e5583e12210c8755dc6feaad3d2</id>
+        <name>Automação de solicitações de serviços acadêmicos</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 17:47:48</sys_created_on>
+        <sys_id>25eb4e5583e12210c8755dc6feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 17:47:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=25eb4e5583e12210c8755dc6feaad3d4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e5eb4e5583e12210c8755dc6feaad3d2^sys_idNOT IN867b5b1583a92210c8755dc6feaad37b,867bdb1583a92210c8755dc6feaad34b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</model>
+        <model_id>e5eb4e5583e12210c8755dc6feaad3d2</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e5eb4e5583e12210c8755dc6feaad3d2</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>867b5b1583a92210c8755dc6feaad37b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=867b5b1583a92210c8755dc6feaad37b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</model>
+        <model_id>e5eb4e5583e12210c8755dc6feaad3d2</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e5eb4e5583e12210c8755dc6feaad3d2</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>867bdb1583a92210c8755dc6feaad34b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=867bdb1583a92210c8755dc6feaad34b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e5eb4e5583e12210c8755dc6feaad3d2^sys_idNOT IN067bdb1583a92210c8755dc6feaad357,1ef8bbd5832d2210c8755dc6feaad35a,4aa5bbd1832d2210c8755dc6feaad347,865d7f1d832d2210c8755dc6feaad3bc,d67bdb1583a92210c8755dc6feaad360"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>067bdb1583a92210c8755dc6feaad357</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:05:13</sys_updated_on>
+        <ui_id>8c3428f3-4592-4482-bfb1-98f2ee9e14f5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=067bdb1583a92210c8755dc6feaad357"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>067bdb1583a92210c8755dc6feaad357</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>127bdb1583a92210c8755dc6feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <value>state=2^assignment_group={"display":"Professores UNIT-PE","value":"6946228583e12210c8755dc6feaad3ac","sys_id":"6946228583e12210c8755dc6feaad3ac"}</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>067bdb1583a92210c8755dc6feaad357</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>d27bdb1583a92210c8755dc6feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <value>x_1649915_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=067bdb1583a92210c8755dc6feaad357"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>067bdb1583a92210c8755dc6feaad357</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>9e7bdb1583a92210c8755dc6feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>067bdb1583a92210c8755dc6feaad357</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>167bdb1583a92210c8755dc6feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>067bdb1583a92210c8755dc6feaad357</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>da7bdb1583a92210c8755dc6feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=067bdb1583a92210c8755dc6feaad357"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=067bdb1583a92210c8755dc6feaad357"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>1366d181-5f55-4ada-806f-070d5424dedf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:44:21</sys_created_on>
+        <sys_id>1ef8bbd5832d2210c8755dc6feaad35a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:05:13</sys_updated_on>
+        <ui_id>db98791d-95d8-4859-b86b-dbff48f3ab99</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1ef8bbd5832d2210c8755dc6feaad35a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1ef8bbd5832d2210c8755dc6feaad35a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:44:21</sys_created_on>
+        <sys_id>1af8bbd5832d2210c8755dc6feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:44:21</sys_updated_on>
+        <value>x_1649915_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1ef8bbd5832d2210c8755dc6feaad35a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:44:21</sys_created_on>
+        <sys_id>56f8bbd5832d2210c8755dc6feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:44:21</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1ef8bbd5832d2210c8755dc6feaad35a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1ef8bbd5832d2210c8755dc6feaad35a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:44:21</sys_created_on>
+        <sys_id>d2f8bbd5832d2210c8755dc6feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:44:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1ef8bbd5832d2210c8755dc6feaad35a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:44:21</sys_created_on>
+        <sys_id>5ef8bbd5832d2210c8755dc6feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:44:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1ef8bbd5832d2210c8755dc6feaad35a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:44:21</sys_created_on>
+        <sys_id>12f8bbd5832d2210c8755dc6feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:44:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1ef8bbd5832d2210c8755dc6feaad35a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1ef8bbd5832d2210c8755dc6feaad35a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>1366d181-5f55-4ada-806f-070d5424dedf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:29:51</sys_created_on>
+        <sys_id>4aa5bbd1832d2210c8755dc6feaad347</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:05:13</sys_updated_on>
+        <ui_id>97b7b6d6-4be9-4d14-8403-59f696ba9d30</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4aa5bbd1832d2210c8755dc6feaad347"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4aa5bbd1832d2210c8755dc6feaad347</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:29:51</sys_created_on>
+        <sys_id>4ea5bbd1832d2210c8755dc6feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:29:51</sys_updated_on>
+        <value>x_1649915_unit_x_1649915_testealunocadeiras</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4aa5bbd1832d2210c8755dc6feaad347"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4aa5bbd1832d2210c8755dc6feaad347</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:29:51</sys_created_on>
+        <sys_id>0aa5bbd1832d2210c8755dc6feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:29:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4aa5bbd1832d2210c8755dc6feaad347</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:29:51</sys_created_on>
+        <sys_id>caa5bbd1832d2210c8755dc6feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:29:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>x_1649915_unit_alunos={{Created_1.current.nome_do_aluno}}^x_1649915_unit_cadeiras={{Created_1.current.cadeiras_para_o_aluno_se_matricular}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4aa5bbd1832d2210c8755dc6feaad347"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4aa5bbd1832d2210c8755dc6feaad347"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>f78d499f-c91f-4b57-9b1e-ef329a05ffc9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 02:03:27</sys_created_on>
+        <sys_id>865d7f1d832d2210c8755dc6feaad3bc</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:05:13</sys_updated_on>
+        <ui_id>5f391ac7-c74f-4961-a711-bcae984ff397</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=865d7f1d832d2210c8755dc6feaad3bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>865d7f1d832d2210c8755dc6feaad3bc</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 02:03:27</sys_created_on>
+        <sys_id>825d7f1d832d2210c8755dc6feaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 02:03:27</sys_updated_on>
+        <value>x_1649915_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>865d7f1d832d2210c8755dc6feaad3bc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 02:03:27</sys_created_on>
+        <sys_id>ce5d7f1d832d2210c8755dc6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 02:03:27</sys_updated_on>
+        <value>state=4</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=865d7f1d832d2210c8755dc6feaad3bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>865d7f1d832d2210c8755dc6feaad3bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 02:03:27</sys_created_on>
+        <sys_id>4e5d7f1d832d2210c8755dc6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 02:03:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>865d7f1d832d2210c8755dc6feaad3bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 02:03:27</sys_created_on>
+        <sys_id>c65d7f1d832d2210c8755dc6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 02:03:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>865d7f1d832d2210c8755dc6feaad3bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 02:03:27</sys_created_on>
+        <sys_id>8a5d7f1d832d2210c8755dc6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 02:03:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=865d7f1d832d2210c8755dc6feaad3bc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=865d7f1d832d2210c8755dc6feaad3bc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>d67bdb1583a92210c8755dc6feaad360</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:05:13</sys_updated_on>
+        <ui_id>9b91d919-9627-441d-b5f3-49f2e6f4a6ab</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d67bdb1583a92210c8755dc6feaad360"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d67bdb1583a92210c8755dc6feaad360</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>167bdb1583a92210c8755dc6feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d67bdb1583a92210c8755dc6feaad360</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>5e7bdb1583a92210c8755dc6feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <value>x_1649915_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d67bdb1583a92210c8755dc6feaad360</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>9a7bdb1583a92210c8755dc6feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d67bdb1583a92210c8755dc6feaad360</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>d67bdb1583a92210c8755dc6feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d67bdb1583a92210c8755dc6feaad360"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>d67bdb1583a92210c8755dc6feaad360</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>de7bdb1583a92210c8755dc6feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyG[{{static.6946228583e12210c8755dc6feaad3ac}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>d67bdb1583a92210c8755dc6feaad360</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>d27bdb1583a92210c8755dc6feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>d67bdb1583a92210c8755dc6feaad360</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>1e7bdb1583a92210c8755dc6feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>d67bdb1583a92210c8755dc6feaad360</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>967bdb1583a92210c8755dc6feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d67bdb1583a92210c8755dc6feaad360</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>5a7bdb1583a92210c8755dc6feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{8c3428f3-4592-4482-bfb1-98f2ee9e14f5.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>d67bdb1583a92210c8755dc6feaad360</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>927bdb1583a92210c8755dc6feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d67bdb1583a92210c8755dc6feaad360"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d67bdb1583a92210c8755dc6feaad360"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e5eb4e5583e12210c8755dc6feaad3d2^sys_idNOT IN8e5d7f1d832d2210c8755dc6feaad3b5,c251779d83e92210c8755dc6feaad39a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ca5d7f1d832d2210c8755dc6feaad3b5</block>
+        <comment/>
+        <connected_to>1366d181-5f55-4ada-806f-070d5424dedf</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 02:03:27</sys_created_on>
+        <sys_id>8e5d7f1d832d2210c8755dc6feaad3b5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:06</sys_updated_on>
+        <ui_id>f78d499f-c91f-4b57-9b1e-ef329a05ffc9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8e5d7f1d832d2210c8755dc6feaad3b5"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8e5d7f1d832d2210c8755dc6feaad3b5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8e5d7f1d832d2210c8755dc6feaad3b5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0e51779d83e92210c8755dc6feaad399</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:11:01</sys_created_on>
+        <sys_id>c251779d83e92210c8755dc6feaad39a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:06</sys_updated_on>
+        <ui_id>1366d181-5f55-4ada-806f-070d5424dedf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c251779d83e92210c8755dc6feaad39a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c251779d83e92210c8755dc6feaad39a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:11:01</sys_created_on>
+        <sys_id>c651779d83e92210c8755dc6feaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:11:01</sys_updated_on>
+        <value>Se a solicitação for aprovada</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c251779d83e92210c8755dc6feaad39a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>c251779d83e92210c8755dc6feaad39a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:11:01</sys_created_on>
+        <sys_id>4651779d83e92210c8755dc6feaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:11:01</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{9b91d919-9627-441d-b5f3-49f2e6f4a6ab.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>c251779d83e92210c8755dc6feaad39a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 01:11:01</sys_created_on>
+        <sys_id>8e51779d83e92210c8755dc6feaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 01:11:01</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c251779d83e92210c8755dc6feaad39a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c251779d83e92210c8755dc6feaad39a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e5eb4e5583e12210c8755dc6feaad3d2^sys_idNOT IN867b5b1583a92210c8755dc6feaad37e,c67bdb1583a92210c8755dc6feaad34d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e5eb4e5583e12210c8755dc6feaad3d2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>867b5b1583a92210c8755dc6feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e5eb4e5583e12210c8755dc6feaad3d2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 23:35:27</sys_created_on>
+        <sys_id>c67bdb1583a92210c8755dc6feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 23:35:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e5eb4e5583e12210c8755dc6feaad3d2"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>automao_de_solicitaes_de_servios_acadmicos</internal_name>
+        <label_cache>[{"name":"Created_1.current.cadeiras_para_o_aluno_se_matricular","label":"Trigger - Record Created➛Solicitação de Serviços Acadêmicos Record➛Cadeiras para o aluno se matricular","reference":"x_1649915_unit_cadeiras","reference_display":"Cadeiras","type":"reference","base_type":"reference","parent_table_name":"x_1649915_unit_solicitacao_de_servicos_academicos","column_name":"cadeiras_para_o_aluno_se_matricular","usedInstances":{"f4bfd188-7fc1-4dc4-a501-a3a398b8cde8":["x_1649915_unit_cadeiras"],"97b7b6d6-4be9-4d14-8403-59f696ba9d30":["x_1649915_unit_cadeiras"]}},{"name":"Created_1.current.nome_do_aluno","label":"Trigger - Record Created➛Solicitação de Serviços Acadêmicos Record➛Nome do aluno","reference":"x_1649915_unit_alunos","reference_display":"Alunos","type":"reference","base_type":"reference","parent_table_name":"x_1649915_unit_solicitacao_de_servicos_academicos","column_name":"nome_do_aluno","usedInstances":{"f4bfd188-7fc1-4dc4-a501-a3a398b8cde8":["x_1649915_unit_alunos"],"97b7b6d6-4be9-4d14-8403-59f696ba9d30":["x_1649915_unit_alunos"]}},{"name":"9b91d919-9627-441d-b5f3-49f2e6f4a6ab.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"1366d181-5f55-4ada-806f-070d5424dedf":["condition"],"098fe168-a180-449d-85bc-9487ba397ec2":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitação de Serviços Acadêmicos Record","reference":"x_1649915_unit_solicitacao_de_servicos_academicos","reference_display":"Solicitação de Serviços Acadêmicos","type":"reference","base_type":"reference","usedInstances":{"8c3428f3-4592-4482-bfb1-98f2ee9e14f5":["record"],"db98791d-95d8-4859-b86b-dbff48f3ab99":["record"],"54d00875-bef8-4fed-8bc8-0a2f058b622f":["record"],"5f391ac7-c74f-4961-a711-bcae984ff397":["record"]},"attributes":{}},{"name":"8c3428f3-4592-4482-bfb1-98f2ee9e14f5.record","label":"1 - Update Record➛Solicitação de Serviços Acadêmicos Record","reference":"x_1649915_unit_solicitacao_de_servicos_academicos","reference_display":"Solicitação de Serviços Acadêmicos","type":"reference","base_type":"reference","usedInstances":{"9b91d919-9627-441d-b5f3-49f2e6f4a6ab":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6946228583e12210c8755dc6feaad3ac}}","label":"Professores UNIT-PE","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9b91d919-9627-441d-b5f3-49f2e6f4a6ab":["approval_conditions"]}}]</label_cache>
+        <master>true</master>
+        <name>Automação de solicitações de serviços acadêmicos</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Automação de solicitações de serviços acadêmicos">e5eb4e5583e12210c8755dc6feaad3d2</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d3a4372583212210c8755dc6feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:03</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d3a4372583212210c8755dc6feaad32b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d3a4372583212210c8755dc6feaad32b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d3a4372583212210c8755dc6feaad32b^sys_idNOT INaba4372583212210c8755dc6feaad398"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">d3a4372583212210c8755dc6feaad32b</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>aba4372583212210c8755dc6feaad398</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:05</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aba4372583212210c8755dc6feaad398"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>aba4372583212210c8755dc6feaad398</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>27a4372583212210c8755dc6feaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>aba4372583212210c8755dc6feaad398</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>e7a4372583212210c8755dc6feaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>x_1649915_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d3a4372583212210c8755dc6feaad32b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d3a4372583212210c8755dc6feaad32b^sys_idNOT IN13a4372583212210c8755dc6feaad32c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d3a4372583212210c8755dc6feaad32b</id>
+        <name>Automação de solicitações de serviços acadêmicos</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:03</sys_created_on>
+        <sys_id>13a4372583212210c8755dc6feaad32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=13a4372583212210c8755dc6feaad32c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d3a4372583212210c8755dc6feaad32b^sys_idNOT IN57a4372583212210c8755dc6feaad347,97a4372583212210c8755dc6feaad32d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Automação de solicitações de serviços acadêmicos">d3a4372583212210c8755dc6feaad32b</model>
+        <model_id>d3a4372583212210c8755dc6feaad32b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d3a4372583212210c8755dc6feaad32b</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>57a4372583212210c8755dc6feaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=57a4372583212210c8755dc6feaad347"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Automação de solicitações de serviços acadêmicos">d3a4372583212210c8755dc6feaad32b</model>
+        <model_id>d3a4372583212210c8755dc6feaad32b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d3a4372583212210c8755dc6feaad32b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:03</sys_created_on>
+        <sys_id>97a4372583212210c8755dc6feaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=97a4372583212210c8755dc6feaad32d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d3a4372583212210c8755dc6feaad32b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d3a4372583212210c8755dc6feaad32b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d3a4372583212210c8755dc6feaad32b^sys_idNOT INa3a4372583212210c8755dc6feaad36b,a7a4372583212210c8755dc6feaad37e,aba4372583212210c8755dc6feaad396,eba4372583212210c8755dc6feaad390,efa4372583212210c8755dc6feaad374"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">d3a4372583212210c8755dc6feaad32b</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>a3a4372583212210c8755dc6feaad36b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <ui_id>8c3428f3-4592-4482-bfb1-98f2ee9e14f5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a3a4372583212210c8755dc6feaad36b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a3a4372583212210c8755dc6feaad36b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>27a4372583212210c8755dc6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>state=2^assignment_group={"display":"Professores UNIT-PE","value":"6946228583e12210c8755dc6feaad3ac","sys_id":"6946228583e12210c8755dc6feaad3ac"}</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a3a4372583212210c8755dc6feaad36b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>e7a4372583212210c8755dc6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>x_1649915_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a3a4372583212210c8755dc6feaad36b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a3a4372583212210c8755dc6feaad36b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>a3a4372583212210c8755dc6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a3a4372583212210c8755dc6feaad36b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>2fa4372583212210c8755dc6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a3a4372583212210c8755dc6feaad36b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>efa4372583212210c8755dc6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a3a4372583212210c8755dc6feaad36b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a3a4372583212210c8755dc6feaad36b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">d3a4372583212210c8755dc6feaad32b</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>1366d181-5f55-4ada-806f-070d5424dedf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>a7a4372583212210c8755dc6feaad37e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <ui_id>97b7b6d6-4be9-4d14-8403-59f696ba9d30</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a7a4372583212210c8755dc6feaad37e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a7a4372583212210c8755dc6feaad37e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>efa4372583212210c8755dc6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>x_1649915_unit_x_1649915_testealunocadeiras</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a7a4372583212210c8755dc6feaad37e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a7a4372583212210c8755dc6feaad37e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>aba4372583212210c8755dc6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a7a4372583212210c8755dc6feaad37e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>6fa4372583212210c8755dc6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>x_1649915_unit_alunos={{Created_1.current.nome_do_aluno}}^x_1649915_unit_cadeiras={{Created_1.current.cadeiras_para_o_aluno_se_matricular}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a7a4372583212210c8755dc6feaad37e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a7a4372583212210c8755dc6feaad37e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">d3a4372583212210c8755dc6feaad32b</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>f78d499f-c91f-4b57-9b1e-ef329a05ffc9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>aba4372583212210c8755dc6feaad396</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <ui_id>5f391ac7-c74f-4961-a711-bcae984ff397</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aba4372583212210c8755dc6feaad396"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aba4372583212210c8755dc6feaad396</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>a7a4372583212210c8755dc6feaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>x_1649915_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aba4372583212210c8755dc6feaad396</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>e3a4372583212210c8755dc6feaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>state=4</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=aba4372583212210c8755dc6feaad396"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>aba4372583212210c8755dc6feaad396</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>63a4372583212210c8755dc6feaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>aba4372583212210c8755dc6feaad396</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>eba4372583212210c8755dc6feaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>aba4372583212210c8755dc6feaad396</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>afa4372583212210c8755dc6feaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aba4372583212210c8755dc6feaad396"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aba4372583212210c8755dc6feaad396"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">d3a4372583212210c8755dc6feaad32b</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>1366d181-5f55-4ada-806f-070d5424dedf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>eba4372583212210c8755dc6feaad390</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <ui_id>db98791d-95d8-4859-b86b-dbff48f3ab99</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eba4372583212210c8755dc6feaad390"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>eba4372583212210c8755dc6feaad390</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>27a4372583212210c8755dc6feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>eba4372583212210c8755dc6feaad390</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>e7a4372583212210c8755dc6feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>x_1649915_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eba4372583212210c8755dc6feaad390"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>eba4372583212210c8755dc6feaad390</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>a3a4372583212210c8755dc6feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>eba4372583212210c8755dc6feaad390</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>2fa4372583212210c8755dc6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>eba4372583212210c8755dc6feaad390</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>efa4372583212210c8755dc6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eba4372583212210c8755dc6feaad390"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eba4372583212210c8755dc6feaad390"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">d3a4372583212210c8755dc6feaad32b</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>efa4372583212210c8755dc6feaad374</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <ui_id>9b91d919-9627-441d-b5f3-49f2e6f4a6ab</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=efa4372583212210c8755dc6feaad374"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efa4372583212210c8755dc6feaad374</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>2fa4372583212210c8755dc6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efa4372583212210c8755dc6feaad374</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>67a4372583212210c8755dc6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>x_1649915_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efa4372583212210c8755dc6feaad374</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>a3a4372583212210c8755dc6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efa4372583212210c8755dc6feaad374</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>efa4372583212210c8755dc6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=efa4372583212210c8755dc6feaad374"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>efa4372583212210c8755dc6feaad374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>e7a4372583212210c8755dc6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyG[{{static.6946228583e12210c8755dc6feaad3ac}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>efa4372583212210c8755dc6feaad374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>eba4372583212210c8755dc6feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>efa4372583212210c8755dc6feaad374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>27a4372583212210c8755dc6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>efa4372583212210c8755dc6feaad374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>afa4372583212210c8755dc6feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>efa4372583212210c8755dc6feaad374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>63a4372583212210c8755dc6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{8c3428f3-4592-4482-bfb1-98f2ee9e14f5.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>efa4372583212210c8755dc6feaad374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>aba4372583212210c8755dc6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=efa4372583212210c8755dc6feaad374"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=efa4372583212210c8755dc6feaad374"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d3a4372583212210c8755dc6feaad32b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d3a4372583212210c8755dc6feaad32b^sys_idNOT IN6fa4372583212210c8755dc6feaad362,eba4372583212210c8755dc6feaad35d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ca5d7f1d832d2210c8755dc6feaad3b5</block>
+        <comment/>
+        <connected_to>1366d181-5f55-4ada-806f-070d5424dedf</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">d3a4372583212210c8755dc6feaad32b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>6fa4372583212210c8755dc6feaad362</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <ui_id>f78d499f-c91f-4b57-9b1e-ef329a05ffc9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6fa4372583212210c8755dc6feaad362"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6fa4372583212210c8755dc6feaad362"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6fa4372583212210c8755dc6feaad362"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0e51779d83e92210c8755dc6feaad399</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Automação de solicitações de serviços acadêmicos">d3a4372583212210c8755dc6feaad32b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>eba4372583212210c8755dc6feaad35d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <ui_id>1366d181-5f55-4ada-806f-070d5424dedf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eba4372583212210c8755dc6feaad35d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>eba4372583212210c8755dc6feaad35d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>6fa4372583212210c8755dc6feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <value>Se a solicitação for aprovada</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eba4372583212210c8755dc6feaad35d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>eba4372583212210c8755dc6feaad35d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>eba4372583212210c8755dc6feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{9b91d919-9627-441d-b5f3-49f2e6f4a6ab.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>eba4372583212210c8755dc6feaad35d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>e3a4372583212210c8755dc6feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=eba4372583212210c8755dc6feaad35d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eba4372583212210c8755dc6feaad35d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d3a4372583212210c8755dc6feaad32b"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d3a4372583212210c8755dc6feaad32b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d3a4372583212210c8755dc6feaad32b^sys_idNOT IN97a4372583212210c8755dc6feaad34b,dba4372583212210c8755dc6feaad343"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d3a4372583212210c8755dc6feaad32b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>97a4372583212210c8755dc6feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d3a4372583212210c8755dc6feaad32b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:04</sys_created_on>
+        <sys_id>dba4372583212210c8755dc6feaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d3a4372583212210c8755dc6feaad32b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d3a4372583212210c8755dc6feaad32b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d3a4372583212210c8755dc6feaad32b"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>e5eb4e5583e12210c8755dc6feaad3d2</sys_id>
+        <latest_snapshot>d3a4372583212210c8755dc6feaad32b</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch10-01-15-2025_01-31-2025_0756.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e5eb4e5583e12210c8755dc6feaad3d2^sys_idNOT INb3a4372583212210c8755dc6feaad3bd"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"b3a4372583212210c8755dc6feaad3bd","name":"plan","plan_signature":null}}</plan>
+        <plan_id>e5eb4e5583e12210c8755dc6feaad3d2</plan_id>
+        <snapshot>54f43f2583212210c8755dc6feaad37e</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 20:04:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3a4372583212210c8755dc6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 20:04:05</sys_updated_on>
+        <trigger display_value="">73a4372583212210c8755dc6feaad3bb</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e5eb4e5583e12210c8755dc6feaad3d2"/>
+</record_update>

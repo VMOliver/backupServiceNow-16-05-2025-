@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1649915_unit_cadeiras" version="2" view="unit">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>nome_da_cadeira</element>
+            <list_id display_value="x_1649915_unit_cadeiras" element="NULL" name="x_1649915_unit_cadeiras" parent="NULL" relationship="NULL" sys_domain="global" view="12d7bac383156210c8755dc6feaad33c">a78faf9783d12210c8755dc6feaad3e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-09 19:55:22</sys_created_on>
+            <sys_id>238faf9783d12210c8755dc6feaad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-09 19:55:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>periodo</element>
+            <list_id display_value="x_1649915_unit_cadeiras" element="NULL" name="x_1649915_unit_cadeiras" parent="NULL" relationship="NULL" sys_domain="global" view="12d7bac383156210c8755dc6feaad33c">a78faf9783d12210c8755dc6feaad3e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-09 19:55:22</sys_created_on>
+            <sys_id>a38faf9783d12210c8755dc6feaad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-09 19:55:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>professor</element>
+            <list_id display_value="x_1649915_unit_cadeiras" element="NULL" name="x_1649915_unit_cadeiras" parent="NULL" relationship="NULL" sys_domain="global" view="12d7bac383156210c8755dc6feaad33c">a78faf9783d12210c8755dc6feaad3e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-09 19:55:22</sys_created_on>
+            <sys_id>278faf9783d12210c8755dc6feaad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-09 19:55:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1649915_unit_cadeiras</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-09 19:55:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a78faf9783d12210c8755dc6feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1649915_unit_cadeiras</sys_name>
+            <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+            <sys_update_name>sys_ui_list_x_1649915_unit_cadeiras_unit</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-09 19:55:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="UNIT" name="unit">12d7bac383156210c8755dc6feaad33c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</application>
+        <file_path/>
+        <instance_id>3707a1bd1b960e1078c7cb7b234bcbff</instance_id>
+        <instance_name>dev271885</instance_name>
+        <name>sys_ui_list_x_1649915_unit_cadeiras_unit</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1649915_unit_cadeiras" version="2" view="unit"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>nome_da_cadeira</element><list_id display_value="x_1649915_unit_cadeiras" element="NULL" name="x_1649915_unit_cadeiras" parent="NULL" relationship="NULL" sys_domain="global" view="12d7bac383156210c8755dc6feaad33c">a78faf9783d12210c8755dc6feaad3e2</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 19:55:22</sys_created_on><sys_id>238faf9783d12210c8755dc6feaad3e3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 19:55:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>periodo</element><list_id display_value="x_1649915_unit_cadeiras" element="NULL" name="x_1649915_unit_cadeiras" parent="NULL" relationship="NULL" sys_domain="global" view="12d7bac383156210c8755dc6feaad33c">a78faf9783d12210c8755dc6feaad3e2</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 19:55:22</sys_created_on><sys_id>a38faf9783d12210c8755dc6feaad3e3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 19:55:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>professor</element><list_id display_value="x_1649915_unit_cadeiras" element="NULL" name="x_1649915_unit_cadeiras" parent="NULL" relationship="NULL" sys_domain="global" view="12d7bac383156210c8755dc6feaad33c">a78faf9783d12210c8755dc6feaad3e2</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 19:55:22</sys_created_on><sys_id>278faf9783d12210c8755dc6feaad3e3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 19:55:22</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1649915_unit_cadeiras</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 19:55:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a78faf9783d12210c8755dc6feaad3e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1649915_unit_cadeiras</sys_name><sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package><sys_policy/><sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope><sys_update_name>sys_ui_list_x_1649915_unit_cadeiras_unit</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 19:55:22</sys_updated_on><sys_user/><view display_value="UNIT" name="unit">12d7bac383156210c8755dc6feaad33c</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>658077462</payload_hash>
+        <record_name>Cadeiras</record_name>
+        <reverted_from/>
+        <source>477922f683112210c8755dc6feaad3fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-09 19:55:22</sys_created_on>
+        <sys_id>a78faf9783d12210c8755dc6feaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196b69de09e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-09 19:55:22</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>6f8faf9785d12210563fcba42731c4e4</update_guid>
+        <update_guid_history>6f8faf9785d12210563fcba42731c4e4:658077462,394aa3132dd122104ec2caa26a0b0e74:-1580229200,c54ae7df5f9122100c7c06794366440d:1727463824</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-12 22:42:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>02d2a312abac4b3880865460d647e909</sys_id>
+        <sys_metadata>a78faf9783d12210c8755dc6feaad3e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1649915_unit_cadeiras</sys_name>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_parent display_value="">e93d931383912210c8755dc6feaad36f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_scope_delete display_value="">5033a5712c7c4e8383af3a5d01704741</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1649915_unit_cadeiras_unit</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1649915_unit_cadeiras_unit">a78faf9783d12210c8755dc6feaad3e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-12 22:42:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

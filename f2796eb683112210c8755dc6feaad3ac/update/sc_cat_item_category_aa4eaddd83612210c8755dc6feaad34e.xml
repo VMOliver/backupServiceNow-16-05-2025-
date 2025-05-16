@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Solicitar Serviços Acadêmicos">24da9d9983212210c8755dc6feaad3ca</sc_cat_item>
+        <sc_category display_value="Solicitações  Acadêmicas UNIT">842d291183a12210c8755dc6feaad36c</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 15:38:26</sys_created_on>
+        <sys_id>aa4eaddd83612210c8755dc6feaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitações  Acadêmicas UNIT.Solicitar Serviços Acadêmicos</sys_name>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name>sc_cat_item_category_aa4eaddd83612210c8755dc6feaad34e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 15:38:26</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

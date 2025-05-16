@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1649915_unit_professores" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>nome</element>
+            <list_id display_value="x_1649915_unit_professores" element="NULL" name="x_1649915_unit_professores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ebaeb1383d12210c8755dc6feaad3b0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-09 19:34:13</sys_created_on>
+            <sys_id>86baeb1383d12210c8755dc6feaad3b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-09 19:34:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>numero_da_matricula</element>
+            <list_id display_value="x_1649915_unit_professores" element="NULL" name="x_1649915_unit_professores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ebaeb1383d12210c8755dc6feaad3b0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-09 19:34:13</sys_created_on>
+            <sys_id>0abaeb1383d12210c8755dc6feaad3b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-09 19:34:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>data_de_contratacao</element>
+            <list_id display_value="x_1649915_unit_professores" element="NULL" name="x_1649915_unit_professores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ebaeb1383d12210c8755dc6feaad3b0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-09 19:34:13</sys_created_on>
+            <sys_id>8abaeb1383d12210c8755dc6feaad3b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-09 19:34:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="x_1649915_unit_professores" element="NULL" name="x_1649915_unit_professores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ebaeb1383d12210c8755dc6feaad3b0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-09 19:34:13</sys_created_on>
+            <sys_id>0ebaeb1383d12210c8755dc6feaad3b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-09 19:34:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ativo</element>
+            <list_id display_value="x_1649915_unit_professores" element="NULL" name="x_1649915_unit_professores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ebaeb1383d12210c8755dc6feaad3b0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-09 19:34:13</sys_created_on>
+            <sys_id>8ebaeb1383d12210c8755dc6feaad3b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-09 19:34:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1649915_unit_professores</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-09 19:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ebaeb1383d12210c8755dc6feaad3b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1649915_unit_professores</sys_name>
+            <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+            <sys_update_name>sys_ui_list_x_1649915_unit_professores_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-09 19:34:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</application>
+        <file_path/>
+        <instance_id>3707a1bd1b960e1078c7cb7b234bcbff</instance_id>
+        <instance_name>dev271885</instance_name>
+        <name>sys_ui_list_x_1649915_unit_professores_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1649915_unit_professores" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>nome</element><list_id display_value="x_1649915_unit_professores" element="NULL" name="x_1649915_unit_professores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ebaeb1383d12210c8755dc6feaad3b0</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 19:34:13</sys_created_on><sys_id>86baeb1383d12210c8755dc6feaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 19:34:13</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>numero_da_matricula</element><list_id display_value="x_1649915_unit_professores" element="NULL" name="x_1649915_unit_professores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ebaeb1383d12210c8755dc6feaad3b0</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 19:34:13</sys_created_on><sys_id>0abaeb1383d12210c8755dc6feaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 19:34:13</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>data_de_contratacao</element><list_id display_value="x_1649915_unit_professores" element="NULL" name="x_1649915_unit_professores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ebaeb1383d12210c8755dc6feaad3b0</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 19:34:13</sys_created_on><sys_id>8abaeb1383d12210c8755dc6feaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 19:34:13</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>location</element><list_id display_value="x_1649915_unit_professores" element="NULL" name="x_1649915_unit_professores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ebaeb1383d12210c8755dc6feaad3b0</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 19:34:13</sys_created_on><sys_id>0ebaeb1383d12210c8755dc6feaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 19:34:13</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>ativo</element><list_id display_value="x_1649915_unit_professores" element="NULL" name="x_1649915_unit_professores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ebaeb1383d12210c8755dc6feaad3b0</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 19:34:13</sys_created_on><sys_id>8ebaeb1383d12210c8755dc6feaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 19:34:13</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1649915_unit_professores</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 19:34:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0ebaeb1383d12210c8755dc6feaad3b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1649915_unit_professores</sys_name><sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package><sys_policy/><sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope><sys_update_name>sys_ui_list_x_1649915_unit_professores_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 19:34:13</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>974566192</payload_hash>
+        <record_name>Professores</record_name>
+        <reverted_from/>
+        <source>477922f683112210c8755dc6feaad3fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-09 19:34:13</sys_created_on>
+        <sys_id>82baeb1383d12210c8755dc6feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196b68a861e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-09 19:34:13</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>4abaeb1306d122106c9fc596f60d15b3</update_guid>
+        <update_guid_history>4abaeb1306d122106c9fc596f60d15b3:974566192,891d5fdf68512210d55113b5795645d4:-273889098,f09bdb5f0d5122100dd5b720863cdef3:-327611706,1e88d75bd9512210d2c499294bc1f19d:1445780311,610132cb6dd16210665d16821f9c896c:-681570018</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-12 22:42:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>2de88a5b4f6a4a6b89e200dd8a65fb41</sys_id>
+        <sys_metadata>0ebaeb1383d12210c8755dc6feaad3b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1649915_unit_professores</sys_name>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_parent display_value="">00395b9b83512210c8755dc6feaad32c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_scope_delete display_value="">5033a5712c7c4e8383af3a5d01704741</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1649915_unit_professores_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1649915_unit_professores_null">82baeb1383d12210c8755dc6feaad3b4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-12 22:42:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

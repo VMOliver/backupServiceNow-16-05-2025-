@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-09 17:58:14</sys_created_on>
+        <sys_id>ffb4dfd383512210c8755dc6feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1649915_unit_cadeiras.x_1649915_unit.cadeiras_user</sys_name>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_security_acl display_value="x_1649915_unit_cadeiras">33b4dfd383512210c8755dc6feaad3bd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ffb4dfd383512210c8755dc6feaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-09 17:58:14</sys_updated_on>
+        <sys_user_role display_value="x_1649915_unit.cadeiras_user" name="x_1649915_unit.cadeiras_user">1572fe8b83d16210c8755dc6feaad396</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</application>
+        <file_path/>
+        <instance_id>3707a1bd1b960e1078c7cb7b234bcbff</instance_id>
+        <instance_name>dev271885</instance_name>
+        <name>sys_security_acl_role_ffb4dfd383512210c8755dc6feaad3bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-09 17:58:14</sys_created_on><sys_id>ffb4dfd383512210c8755dc6feaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1649915_unit_cadeiras.x_1649915_unit.cadeiras_user</sys_name><sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package><sys_policy/><sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope><sys_security_acl display_value="x_1649915_unit_cadeiras">33b4dfd383512210c8755dc6feaad3bd</sys_security_acl><sys_update_name>sys_security_acl_role_ffb4dfd383512210c8755dc6feaad3bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-09 17:58:14</sys_updated_on><sys_user_role display_value="x_1649915_unit.cadeiras_user" name="x_1649915_unit.cadeiras_user">1572fe8b83d16210c8755dc6feaad396</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1225984091</payload_hash>
+        <record_name>x_1649915_unit_cadeiras.x_1649915_unit.cadeiras_user</record_name>
+        <reverted_from/>
+        <source>477922f683112210c8755dc6feaad3fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-09 17:58:14</sys_created_on>
+        <sys_id>3bb4dfd383512210c8755dc6feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196b632a4520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-09 17:58:14</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>3fb4dfd34b512210690d1a9a9cb9b1c1</update_guid>
+        <update_guid_history>3fb4dfd34b512210690d1a9a9cb9b1c1:1225984091</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1649915_unit_cadeiras.x_1649915_unit.cadeiras_user">a578d35b83512210c8755dc6feaad394</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-09 18:14:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>06825d0f9d1f4cf286011c35c2b8d3d1</sys_id>
+        <sys_metadata>ffb4dfd383512210c8755dc6feaad3bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1649915_unit_cadeiras.x_1649915_unit.cadeiras_user</sys_name>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_parent display_value="">33b4dfd383512210c8755dc6feaad3bd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_scope_delete display_value="">5033a5712c7c4e8383af3a5d01704741</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ffb4dfd383512210c8755dc6feaad3bf</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ffb4dfd383512210c8755dc6feaad3bf">3bb4dfd383512210c8755dc6feaad3c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-09 18:14:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

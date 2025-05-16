@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b576995583212210c8755dc6feaad351" extends="task" label="Solicitação de Serviços Acadêmicos" max_length="40" name="x_1649915_unit_solicitacao_de_servicos_academicos" type="collection">
+        <element label="Cadeiras para o aluno se matricular" max_length="32" name="cadeiras_para_o_aluno_se_matricular" reference="x_1649915_unit_cadeiras" type="reference"/>
+        <element label="Nome do aluno" max_length="32" name="nome_do_aluno" reference="x_1649915_unit_alunos" type="reference"/>
+    </element>
+</database>

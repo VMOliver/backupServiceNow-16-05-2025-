@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="location" label="Localização" language="en" table="x_1649915_unit_professores">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <help/>
+            <hint/>
+            <label>Localização</label>
+            <language>en</language>
+            <name>x_1649915_unit_professores</name>
+            <plural>Localizações</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-13 17:49:47</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Localização</sys_name>
+            <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+            <sys_update_name>sys_documentation_x_1649915_unit_professores_location_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-13 17:49:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
