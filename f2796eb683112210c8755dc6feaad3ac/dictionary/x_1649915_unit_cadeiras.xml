@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e2e3775883212210c8755dc6feaad3d6" label="Cadeiras" max_length="40" name="x_1649915_unit_cadeiras" type="collection">
+        <element label="Professor" max_length="32" name="professor" reference="x_1649915_unit_professores" type="reference"/>
         <element display="true" label="Nome da cadeira" max_length="40" name="nome_da_cadeira" type="string"/>
         <element choice="1" label="Período" max_length="40" name="periodo" type="choice">
             <choice>
@@ -14,7 +15,6 @@
                 <element inactive_on_update="false" label="9º Período" sequence="9" value="9_periodo"/>
             </choice>
         </element>
-        <element label="Professor" max_length="32" name="professor" reference="x_1649915_unit_professores" type="reference"/>
         <index name="index">
             <element name="professor"/>
         </index>

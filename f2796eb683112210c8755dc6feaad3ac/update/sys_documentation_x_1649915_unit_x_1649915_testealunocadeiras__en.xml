@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="m2m_Alunos_Cadeiras" language="en" table="x_1649915_unit_x_1649915_testealunocadeiras">
+    <sys_documentation element="" label="Alunos_Cadeiras" language="en" table="x_1649915_unit_x_1649915_testealunocadeiras">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>m2m_Alunos_Cadeiras</label>
+            <label>Alunos_Cadeiras</label>
             <language>en</language>
             <name>x_1649915_unit_x_1649915_testealunocadeiras</name>
-            <plural>m2m_Alunos_Cadeiras</plural>
+            <plural>Alunos_Cadeiras</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-05-12 22:55:49</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>m2m_Alunos_Cadeiras</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Alunos_Cadeiras</sys_name>
             <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
             <sys_policy/>
             <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
             <sys_update_name>sys_documentation_x_1649915_unit_x_1649915_testealunocadeiras__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-12 22:55:49</sys_updated_on>
+            <sys_updated_on>2025-05-19 20:29:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

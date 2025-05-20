@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="DELETE">
+        <filter table="x_1649915_unit_professores">location=0d9ef98583212210c8755dc6feaad31e^EQ<item display_table="cmn_location" display_value="UNIT-AL" endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="0d9ef98583212210c8755dc6feaad31e"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-14 22:52:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0118c68183612210c8755dc6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Campus UNIT-AL</sys_name>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name>sys_filter_0118c68183612210c8755dc6feaad3ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-14 22:52:37</sys_updated_on>
+        <table>x_1649915_unit_professores</table>
+        <title>Campus UNIT-AL</title>
+        <user/>
+    </sys_filter>
+    <sys_translated_text action="DELETE" query="documentkey=0118c68183612210c8755dc6feaad3ee"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</application>
+        <file_path/>
+        <instance_id>3707a1bd1b960e1078c7cb7b234bcbff</instance_id>
+        <instance_name>dev271885</instance_name>
+        <name>sys_filter_0118c68183612210c8755dc6feaad3ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter"><sys_filter action="INSERT_OR_UPDATE"><filter table="x_1649915_unit_professores">location=0d9ef98583212210c8755dc6feaad31e^EQ<item display_table="cmn_location" display_value="UNIT-AL" endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="0d9ef98583212210c8755dc6feaad31e"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><group/><last_used/><mobile>false</mobile><roles/><sys_class_name>sys_filter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-14 22:52:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0118c68183612210c8755dc6feaad3ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Campus UNIT-AL</sys_name><sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package><sys_policy/><sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope><sys_update_name>sys_filter_0118c68183612210c8755dc6feaad3ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-14 22:52:37</sys_updated_on><table>x_1649915_unit_professores</table><title>Campus UNIT-AL</title><user/></sys_filter><sys_translated_text action="delete_multiple" query="documentkey=0118c68183612210c8755dc6feaad3ee"/></record_update>]]></payload>
+        <payload_hash>279175005</payload_hash>
+        <record_name>Campus UNIT-AL</record_name>
+        <reverted_from/>
+        <source>477922f683112210c8755dc6feaad3fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-14 22:52:37</sys_created_on>
+        <sys_id>cd18c68183612210c8755dc6feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196d0fff6e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-14 22:52:37</sys_updated_on>
+        <type>Filter</type>
+        <update_guid>c118c6819e61221096f87fe9dd170eef</update_guid>
+        <update_guid_history>c118c6819e61221096f87fe9dd170eef:279175005</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 21:30:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_filter">sys_filter</sys_db_object>
+        <sys_id>52f41a359e4e428ea8d57b95842e00a4</sys_id>
+        <sys_metadata>0118c68183612210c8755dc6feaad3ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Campus UNIT-AL</sys_name>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_parent display_value="">cfb2b7d483212210c8755dc6feaad319</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_scope_delete display_value="">5033a5712c7c4e8383af3a5d01704741</sys_scope_delete>
+        <sys_update_name>sys_filter_0118c68183612210c8755dc6feaad3ee</sys_update_name>
+        <sys_update_version display_value="sys_filter_0118c68183612210c8755dc6feaad3ee">cd18c68183612210c8755dc6feaad3ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 21:30:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

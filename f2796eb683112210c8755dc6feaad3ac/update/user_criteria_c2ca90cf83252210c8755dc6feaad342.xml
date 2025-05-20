@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location/>
+        <match_all>false</match_all>
+        <name>Professores e Alunos UNIT</name>
+        <role>18d0f20183252210c8755dc6feaad33e,a9b07ecd83e12210c8755dc6feaad3d7</role>
+        <script><![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
+* Populate `answer` with true/false or evaluate to true/false
+* The script is evaluated in the scope the user criteria is defined
+* Don't use `current` in the script or populate the variable
+* Don't use `gs.getUser()` or  `gs.getUserID()`, 
+* instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
+*/]]></script>
+        <short_description>Usuarios não permitidos a contrbuir com a Knowledge da UNIT</short_description>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 20:04:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2ca90cf83252210c8755dc6feaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Professores e Alunos UNIT</sys_name>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name>user_criteria_c2ca90cf83252210c8755dc6feaad342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 20:04:09</sys_updated_on>
+        <user/>
+    </user_criteria>
+    <sys_translated_text action="delete_multiple" query="documentkey=c2ca90cf83252210c8755dc6feaad342"/>
+</record_update>

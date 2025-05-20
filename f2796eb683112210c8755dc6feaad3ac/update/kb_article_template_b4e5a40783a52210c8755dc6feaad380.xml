@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_article_template">
+    <kb_article_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer_ref display_value="Template Secretaria Virtual">09066c0783a52210c8755dc6feaad311</answer_ref>
+        <article_template>Template Secretaria Virtual</article_template>
+        <child_table>u_kb_template_template_secretaria_virtual</child_table>
+        <description/>
+        <meta_description_field/>
+        <sys_class_name>kb_article_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 20:52:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b4e5a40783a52210c8755dc6feaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Template Secretaria Virtual</sys_name>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name>kb_article_template_b4e5a40783a52210c8755dc6feaad380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 20:52:00</sys_updated_on>
+    </kb_article_template>
+</record_update>

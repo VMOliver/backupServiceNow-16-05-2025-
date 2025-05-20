@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="New Tab 1">357184be832d2210c8755dc6feaad327</legacy_page>
+        <name>New Tab 1</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 23:33:52</sys_created_on>
+        <sys_id>317140fe832d2210c8755dc6feaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+        <sys_update_name>sys_grid_canvas_317140fe832d2210c8755dc6feaad3de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 23:33:52</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>
