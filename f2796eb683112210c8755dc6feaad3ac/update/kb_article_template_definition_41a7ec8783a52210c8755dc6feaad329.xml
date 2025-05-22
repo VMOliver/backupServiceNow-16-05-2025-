@@ -15,14 +15,14 @@
         <sys_created_on>2025-05-20 21:00:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>41a7ec8783a52210c8755dc6feaad329</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Responsáveis pelo processo</sys_name>
         <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
         <sys_update_name>kb_article_template_definition_41a7ec8783a52210c8755dc6feaad329</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-20 21:00:45</sys_updated_on>
+        <sys_updated_on>2025-05-22 19:10:58</sys_updated_on>
         <table_column>x_1649915_unit_u_kb_respons_veis_pelo_processo</table_column>
     </kb_article_template_definition>
 </record_update>

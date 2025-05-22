@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="5bfddf2283a92210c8755dc6feaad376" sys_domain="global" table="x_1649915_unit_x_1649915_testealunocadeiras" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>arlindo</sys_created_by>
+            <sys_created_on>2025-05-19 20:58:52</sys_created_on>
+            <sys_id>53fd936283a92210c8755dc6feaad3bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1649915_unit_x_1649915_testealunocadeiras" sys_domain="global" view="Default view">5bfddf2283a92210c8755dc6feaad376</sys_ui_section>
+            <sys_updated_by>arlindo</sys_updated_by>
+            <sys_updated_on>2025-05-19 20:58:52</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1649915_unit_cadeiras</element>
+            <position>1</position>
+            <sys_created_by>arlindo</sys_created_by>
+            <sys_created_on>2025-05-19 20:58:52</sys_created_on>
+            <sys_id>1ffd936283a92210c8755dc6feaad3bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1649915_unit_x_1649915_testealunocadeiras" sys_domain="global" view="Default view">5bfddf2283a92210c8755dc6feaad376</sys_ui_section>
+            <sys_updated_by>arlindo</sys_updated_by>
+            <sys_updated_on>2025-05-19 20:58:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1649915_unit_alunos</element>
+            <position>2</position>
+            <sys_created_by>arlindo</sys_created_by>
+            <sys_created_on>2025-05-19 20:58:52</sys_created_on>
+            <sys_id>93fd936283a92210c8755dc6feaad3c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1649915_unit_x_1649915_testealunocadeiras" sys_domain="global" view="Default view">5bfddf2283a92210c8755dc6feaad376</sys_ui_section>
+            <sys_updated_by>arlindo</sys_updated_by>
+            <sys_updated_on>2025-05-19 20:58:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nota_1</element>
+            <position>3</position>
+            <sys_created_by>arlindo</sys_created_by>
+            <sys_created_on>2025-05-19 20:58:52</sys_created_on>
+            <sys_id>1bfd936283a92210c8755dc6feaad3c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1649915_unit_x_1649915_testealunocadeiras" sys_domain="global" view="Default view">5bfddf2283a92210c8755dc6feaad376</sys_ui_section>
+            <sys_updated_by>arlindo</sys_updated_by>
+            <sys_updated_on>2025-05-19 20:58:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>arlindo</sys_created_by>
+            <sys_created_on>2025-05-19 20:58:52</sys_created_on>
+            <sys_id>9ffd936283a92210c8755dc6feaad3c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1649915_unit_x_1649915_testealunocadeiras" sys_domain="global" view="Default view">5bfddf2283a92210c8755dc6feaad376</sys_ui_section>
+            <sys_updated_by>arlindo</sys_updated_by>
+            <sys_updated_on>2025-05-19 20:58:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nota_2</element>
+            <position>5</position>
+            <sys_created_by>arlindo</sys_created_by>
+            <sys_created_on>2025-05-19 20:58:52</sys_created_on>
+            <sys_id>17fd936283a92210c8755dc6feaad3c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1649915_unit_x_1649915_testealunocadeiras" sys_domain="global" view="Default view">5bfddf2283a92210c8755dc6feaad376</sys_ui_section>
+            <sys_updated_by>arlindo</sys_updated_by>
+            <sys_updated_on>2025-05-19 20:58:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>media</element>
+            <position>6</position>
+            <sys_created_by>arlindo</sys_created_by>
+            <sys_created_on>2025-05-19 20:58:52</sys_created_on>
+            <sys_id>9bfd936283a92210c8755dc6feaad3c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1649915_unit_x_1649915_testealunocadeiras" sys_domain="global" view="Default view">5bfddf2283a92210c8755dc6feaad376</sys_ui_section>
+            <sys_updated_by>arlindo</sys_updated_by>
+            <sys_updated_on>2025-05-19 20:58:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>arlindo</sys_created_by>
+            <sys_created_on>2025-05-19 20:58:52</sys_created_on>
+            <sys_id>13fd936283a92210c8755dc6feaad3c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1649915_unit_x_1649915_testealunocadeiras" sys_domain="global" view="Default view">5bfddf2283a92210c8755dc6feaad376</sys_ui_section>
+            <sys_updated_by>arlindo</sys_updated_by>
+            <sys_updated_on>2025-05-19 20:58:52</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nome_do_periodo</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 20:39:51</sys_created_on>
+            <sys_id>ce667ea383252210c8755dc6feaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1649915_unit_x_1649915_testealunocadeiras" sys_domain="global" view="Default view">5bfddf2283a92210c8755dc6feaad376</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 20:39:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1649915_unit_x_1649915_testealunocadeiras</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>arlindo</sys_created_by>
+            <sys_created_on>2025-05-19 20:58:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bfddf2283a92210c8755dc6feaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1649915_unit_x_1649915_testealunocadeiras</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UNIT" source="x_1649915_unit">f2796eb683112210c8755dc6feaad3ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="UNIT">f2796eb683112210c8755dc6feaad3ac</sys_scope>
+            <sys_update_name>sys_ui_section_5bfddf2283a92210c8755dc6feaad376</sys_update_name>
+            <sys_updated_by>arlindo</sys_updated_by>
+            <sys_updated_on>2025-05-19 20:58:52</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

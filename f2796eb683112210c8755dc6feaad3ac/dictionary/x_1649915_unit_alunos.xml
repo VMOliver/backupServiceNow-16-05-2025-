@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e033baf283512210c8755dc6feaad38a" extends="sys_user" label="Alunos" max_length="40" name="x_1649915_unit_alunos" type="collection">
+        <element choice="1" label="Período" max_length="40" name="periodo" reference="x_1649915_unit_cadeiras" reference_qual="periodo=^EQ" reference_qual_condition="periodo=^EQ" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="8º Período" sequence="800" value="8_periodo"/>
+                <element inactive_on_update="false" label="4º Período" sequence="400" value="4_periodo"/>
+                <element inactive_on_update="false" label="1º Período" sequence="100" value="1_periodo"/>
+                <element inactive_on_update="false" label="3º Período" sequence="300" value="3_periodo"/>
+                <element inactive_on_update="false" label="2º Período" sequence="200" value="2_periodo"/>
+                <element inactive_on_update="false" label="7º Período" sequence="700" value="7_periodo"/>
+                <element inactive_on_update="false" label="9º Período" sequence="900" value="9_periodo"/>
+                <element inactive_on_update="false" label="6º Período" sequence="600" value="6_periodo"/>
+                <element inactive_on_update="false" label="5º Período" sequence="500" value="5_periodo"/>
+            </choice>
+        </element>
         <element label="Data de Matrícula" max_length="40" name="data_de_matricula" type="glide_date"/>
         <element choice="1" label="Enfâse" max_length="40" name="enfase" type="choice">
             <choice>
