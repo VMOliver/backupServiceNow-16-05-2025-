@@ -2,7 +2,11 @@
     <element db_object_id="e033baf283512210c8755dc6feaad38a" extends="sys_user" label="Alunos" max_length="40" name="x_1649915_unit_alunos" type="collection">
         <element label="Data de Matrícula" max_length="40" name="data_de_matricula" type="glide_date"/>
         <element choice="1" label="Enfâse" max_length="40" name="enfase" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Marching Learning" sequence="200" value="marching_learning"/>
+                <element inactive_on_update="false" label="Desenvolvimento WEB" sequence="100" value="desenvolvimento_web"/>
+                <element inactive_on_update="false" label="Desenvolvimento de jogos" sequence="300" value="desenvolvimento_de_jogos"/>
+            </choice>
         </element>
         <element choice="1" label="Turno" max_length="40" name="turno" type="choice">
             <choice>
